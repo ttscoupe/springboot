@@ -58,7 +58,7 @@ public class CommonController {
 		try {
 			String ctxPath = uploadpath;
 			String fileName = null;
-			String bizPath = "files";
+			String bizPath = "viewsNew";
 			String nowday = new SimpleDateFormat("yyyyMMdd").format(new Date());
 			File file = new File(ctxPath + File.separator + bizPath + File.separator + nowday);
 			if (!file.exists()) {
