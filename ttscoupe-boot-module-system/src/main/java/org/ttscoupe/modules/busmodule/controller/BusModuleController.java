@@ -77,7 +77,7 @@ public class BusModuleController {
 	public Result<BusModule> add(@RequestBody BusModule busModule) {
 		Result<BusModule> result = new Result<BusModule>();
 		try {
-			busModuleService.save(busModule);
+			busModuleService.add(busModule);
 			result.success("添加成功！");
 		} catch (Exception e) {
 			log.error(e.getMessage(),e);

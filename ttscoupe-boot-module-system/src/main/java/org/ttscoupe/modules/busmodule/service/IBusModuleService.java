@@ -11,4 +11,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface IBusModuleService extends IService<BusModule> {
 
+    boolean add(BusModule busModule);
 }
